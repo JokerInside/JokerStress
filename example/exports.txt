@@ -1,0 +1,9 @@
+client sided
+
+exports['JokerStress']:AddStress('instant', 100000) -- Adds 100.000 (%10) stress instantly
+
+exports['JokerStress']:AddStress('slow', 100000, 5) -- Adds 100.000 (%10) stress gradually in 5 seconds
+
+exports['JokerStress']:RemoveStress('instant', 100000) -- Removes 100.000 (%10) stress instantly
+
+exports['JokerStress']:RemoveStress('slow', 100000, 5) -- Removes 100.000 (%10) stress gradually in 5 seconds
